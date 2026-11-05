@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jejum de 21 dias · A Ponte BH</title>
+<meta name="description" content="De 9 a 29 de novembro, toda a nossa igreja em jejum e oração. Veja como participar.">
+<meta property="og:title" content="Jejum de 21 dias · A Ponte BH">
+<meta property="og:description" content="De 9 a 29 de novembro, toda a nossa igreja em jejum e oração.">
+<meta property="og:type" content="website">
+<style>html,body{margin:0;padding:0;background:#f8f8f6;}</style>
+</head>
+<body>
+<!-- ═══════════════════════════════════════════════════════════════
+     PÁGINA MULTIUSO: JEJUM DE 21 DIAS — A Ponte BH
+     Colar no editor HTML da Página Multiuso do inChurch.
+     NÃO inclui <!DOCTYPE>, <html> ou <head>.
+     Mesma base visual da página "Sobre Nós" (#00a8a8 + Inter).
+     Período: 09/11/2026 → 29/11/2026 (21 dias, seg → dom)
+     ═══════════════════════════════════════════════════════════════ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+/* ── RESET & BASE ── */
+.jj {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+  overflow-x: hidden;
+  background: #f8f8f6;
+}
+.jj *, .jj *::before, .jj *::after { box-sizing: border-box; }
+.jj a { text-decoration: none; color: inherit; }
+.jj p { margin: 0 0 1.1em; line-height: 1.75; }
+.jj h1, .jj h2, .jj h3, .jj h4 { font-family: 'Inter', 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+.jj .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+/* ── TIPOGRAFIA ── */
+.jj .tag-label {
+  display: inline-block;
+  font-size: .72rem; font-weight: 700;
+  letter-spacing: .18em; text-transform: uppercase;
+  color: #00a8a8; margin-bottom: 14px;
+}
+.jj .display-md {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 800; line-height: 1.1;
+  letter-spacing: -.02em; color: #0f1f1f;
+}
+.jj .section { padding: 96px 0; }
+.jj .section-dark { background: #0b1f1f; color: #e8f4f4; }
+.jj .section-dark p { color: rgba(232,244,244,.75); }
+.jj .section-cream { background: #f0f0eb; }
+.jj .section-white { background: #fff; }
+
+/* ════════ HERO ════════ */
+.jj .hero-wrap {
+  background: #0b1f1f;
+  min-height: 92vh;
+  display: flex; flex-direction: column; justify-content: flex-end;
+  padding: 60px 0 80px;
+  position: relative; overflow: hidden;
+}
+.jj .hero-wrap::before {
+  content: ''; position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 80% 20%, rgba(0,168,168,.20) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 40% at 10% 80%, rgba(0,168,168,.10) 0%, transparent 70%);
+}
+.jj .hero-bg-word {
+  position: absolute; right: -2vw; bottom: -6vw;
+  font-size: clamp(10rem, 32vw, 28rem);
+  font-weight: 900; color: rgba(255,255,255,.035);
+  letter-spacing: -.06em; line-height: 1;
+  pointer-events: none; user-select: none; white-space: nowrap;
+}
+.jj .hero-eyebrow {
+  font-size: .75rem; font-weight: 600;
+  letter-spacing: .2em; text-transform: uppercase;
+  color: #00a8a8; margin-bottom: 28px;
+  display: flex; align-items: center; gap: 14px;
+}
+.jj .hero-eyebrow::before { content: ''; width: 40px; height: 2px; background: #00a8a8; flex-shrink: 0; }
+.jj .hero-h1 {
+  font-size: clamp(3rem, 9vw, 8rem);
+  font-weight: 900; line-height: .96;
+  letter-spacing: -.04em; color: #fff; margin-bottom: 36px;
+}
+.jj .hero-h1 em { font-style: normal; font-weight: 300; color: rgba(255,255,255,.5); }
+.jj .hero-sub {
+  font-size: 1.1rem; color: rgba(255,255,255,.7);
+  max-width: 560px; line-height: 1.65;
+  border-left: 3px solid #00a8a8; padding-left: 20px;
+}
+.jj .hero-meta { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 40px; }
+.jj .hero-pill {
+  display: inline-flex; flex-direction: column; gap: 4px;
+  padding: 14px 22px; border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.04);
+}
+.jj .hero-pill small {
+  font-size: .66rem; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; color: #00a8a8;
+}
+.jj .hero-pill strong { font-size: 1.15rem; font-weight: 800; color: #fff; letter-spacing: -.01em; }
+.jj .hero-pill-live { border-color: rgba(0,168,168,.5); background: rgba(0,168,168,.12); }
+.jj .hero-scroll-hint {
+  margin-top: 56px; display: flex; align-items: center; gap: 12px;
+  color: rgba(255,255,255,.35); font-size: .78rem; font-weight: 500;
+  letter-spacing: .12em; text-transform: uppercase;
+}
+.jj .hero-scroll-hint .scl { width: 48px; height: 1px; background: rgba(255,255,255,.25); }
+@media (max-width: 768px) { .jj .hero-wrap { min-height: 78vh; padding: 40px 0 56px; } }
+
+/* ════════ CONVOCAÇÃO ════════ */
+.jj .conv-grid {
+  display: grid; grid-template-columns: 1fr 1.15fr;
+  gap: 80px; align-items: center;
+}
+@media (max-width: 900px) { .jj .conv-grid { grid-template-columns: 1fr; gap: 48px; } }
+.jj .video-wrap {
+  position: relative; width: 100%; aspect-ratio: 16/9;
+  border-radius: 12px; overflow: hidden;
+  box-shadow: 0 16px 50px rgba(0,0,0,.14); background: #0b1f1f;
+}
+.jj .video-wrap iframe { width: 100%; height: 100%; border: 0; display: block; }
+.jj .quote-box {
+  border-left: 3px solid #00a8a8; padding: 6px 0 6px 22px; margin: 28px 0 0;
+  font-size: 1.12rem; font-weight: 600; line-height: 1.55; color: #0f1f1f;
+}
+
+
+/* eventos no calendário */
+.jj .cal-day.has-ev { border-color: rgba(0,168,168,.45); background: #fff; box-shadow: inset 0 -3px 0 #00a8a8; }
+.jj .cal-day.has-ev.is-done { background: rgba(0,168,168,.12); }
+.jj .cal-day.is-today.has-ev { background: #00a8a8; box-shadow: 0 10px 28px rgba(0,168,168,.4); }
+.jj .ev-tag { font-size: .6rem; font-weight: 800; color: #00807f; letter-spacing: .04em; line-height: 1; margin-top: 3px; white-space: nowrap; }
+.jj .cal-day.is-today .ev-tag { color: #fff; }
+@media (max-width: 600px) { .jj .ev-tag { font-size: .52rem; margin-top: 2px; } .jj .ev-tag { letter-spacing: 0; } }
+.jj .ev-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 32px; }
+@media (max-width: 800px) { .jj .ev-list { grid-template-columns: 1fr; } }
+.jj .ev-item { border: 1px solid rgba(0,168,168,.3); background: rgba(0,168,168,.06); border-radius: 12px; padding: 18px 22px; }
+.jj .ev-item small { display: block; font-size: .66rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #00a8a8; margin-bottom: 6px; }
+.jj .ev-item strong { display: block; font-size: 1.15rem; font-weight: 800; color: #0f1f1f; letter-spacing: -.01em; }
+.jj .ev-item span { display: block; font-size: .88rem; color: #555; margin-top: 4px; }
+
+/* vídeo: capa clicável + fallback */
+.jj .yt-facade { position: absolute; inset: 0; display: block; background-size: cover; background-position: center; background-color: #0b1f1f; cursor: pointer; }
+.jj .yt-facade::before { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(11,31,31,.65), rgba(11,31,31,.1) 60%); }
+.jj .yt-play { position: absolute; top: 50%; left: 50%; width: 76px; height: 76px; margin: -38px 0 0 -38px; border-radius: 50%; background: #00a8a8; box-shadow: 0 10px 30px rgba(0,0,0,.35); transition: transform .25s, background .25s; }
+.jj .yt-play::after { content: ''; position: absolute; top: 50%; left: 50%; margin: -12px 0 0 -8px; border-style: solid; border-width: 12px 0 12px 20px; border-color: transparent transparent transparent #fff; }
+.jj .yt-facade:hover .yt-play { transform: scale(1.1); background: #008f8f; }
+.jj .yt-label { position: absolute; left: 20px; bottom: 16px; color: #fff; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.jj .yt-fallback { margin: 12px 0 0; font-size: .82rem; color: #6b7a7a; }
+.jj .yt-fallback a { color: #00807f; font-weight: 700; text-decoration: underline; }
+.jj .section-dark .yt-fallback { color: rgba(232,244,244,.6); }
+
+/* ════════ ADVENTO ════════ */
+.jj .advento-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 80px; align-items: center;
+}
+@media (max-width: 900px) { .jj .advento-grid { grid-template-columns: 1fr; gap: 40px; } }
+.jj .big-date {
+  font-size: clamp(5rem, 14vw, 11rem);
+  font-weight: 900; letter-spacing: -.05em; line-height: .9;
+  color: rgba(0,168,168,.9);
+}
+.jj .big-date span { display: block; font-size: .16em; letter-spacing: .2em; text-transform: uppercase; font-weight: 700; color: rgba(255,255,255,.5); margin-top: 14px; }
+
+/* ════════ COMO FAZER ════════ */
+.jj .how-head { max-width: 720px; margin-bottom: 56px; }
+.jj .how-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+@media (max-width: 900px) { .jj .how-grid { grid-template-columns: 1fr; } }
+.jj .how-card {
+  background: #fff; border: 1px solid rgba(0,0,0,.07);
+  border-radius: 12px; padding: 32px 28px 30px;
+  transition: transform .3s ease, box-shadow .3s ease, border-color .3s;
+  display: flex; flex-direction: column;
+}
+.jj .how-card:hover { transform: translateY(-6px); box-shadow: 0 18px 44px rgba(0,0,0,.08); border-color: rgba(0,168,168,.35); }
+.jj .how-num {
+  font-size: 3.2rem; font-weight: 900; line-height: 1;
+  letter-spacing: -.03em; color: rgba(0,168,168,.28); margin-bottom: 18px;
+}
+.jj .how-card h3 { font-size: 1.3rem; font-weight: 800; color: #0f1f1f; margin-bottom: 6px; letter-spacing: -.01em; }
+.jj .how-card h4 {
+  font-size: .74rem; font-weight: 700; color: #00a8a8;
+  letter-spacing: .09em; text-transform: uppercase; margin-bottom: 14px;
+}
+.jj .how-card p { font-size: .95rem; color: #444; line-height: 1.7; margin: 0 0 .8em; }
+.jj .how-tip {
+  margin-top: auto; padding-top: 16px;
+  border-top: 1px dashed rgba(0,168,168,.35);
+  font-size: .86rem; color: #00807f; font-weight: 600; line-height: 1.55;
+}
+.jj .elevate {
+  margin-top: 40px; border-radius: 14px; padding: 36px 40px;
+  background: #0b1f1f; color: #e8f4f4; position: relative; overflow: hidden;
+  display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; align-items: center;
+}
+.jj .elevate::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 60% 80% at 0% 0%, rgba(0,168,168,.22) 0%, transparent 70%);
+}
+.jj .elevate > * { position: relative; z-index: 1; }
+.jj .elevate h3 { font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 800; color: #fff; line-height: 1.15; letter-spacing: -.02em; }
+.jj .elevate h3 span { font-weight: 300; color: rgba(255,255,255,.5); }
+.jj .elevate ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.jj .elevate li {
+  font-size: .98rem; color: rgba(232,244,244,.82); line-height: 1.55;
+  padding-left: 28px; position: relative;
+}
+.jj .elevate li::before {
+  content: ''; position: absolute; left: 0; top: .55em;
+  width: 14px; height: 2px; background: #00a8a8;
+}
+@media (max-width: 800px) { .jj .elevate { grid-template-columns: 1fr; padding: 28px 24px; gap: 24px; } }
+.jj .how-video { margin-top: 56px; }
+
+/* ════════ CALENDÁRIO 21 DIAS ════════ */
+.jj .cal-head { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 24px; margin-bottom: 44px; }
+.jj .cal-status {
+  font-size: .95rem; font-weight: 700; color: #00807f;
+  background: rgba(0,168,168,.1); border: 1px solid rgba(0,168,168,.25);
+  padding: 10px 18px; border-radius: 999px;
+}
+.jj .cal-wrap { max-width: 860px; }
+.jj .cal-dow, .jj .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; }
+.jj .cal-dow { margin-bottom: 10px; }
+.jj .cal-dow span {
+  text-align: center; font-size: .68rem; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase; color: #8a9a9a;
+}
+.jj .cal-day {
+  aspect-ratio: 1 / 1; border-radius: 12px;
+  background: #f0f0eb; border: 1px solid rgba(0,0,0,.05);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 2px; position: relative; transition: transform .25s, background .25s, border-color .25s;
+}
+.jj .cal-day:hover { transform: translateY(-3px); border-color: rgba(0,168,168,.4); }
+.jj .cal-day b { font-size: clamp(1rem, 2.6vw, 1.6rem); font-weight: 800; color: #0f1f1f; letter-spacing: -.02em; line-height: 1; }
+.jj .cal-day small { font-size: .6rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #8a9a9a; }
+.jj .cal-day.is-done { background: rgba(0,168,168,.12); border-color: rgba(0,168,168,.3); }
+.jj .cal-day.is-done b { color: #00807f; }
+.jj .cal-day.is-today { background: #00a8a8; border-color: #00a8a8; box-shadow: 0 10px 28px rgba(0,168,168,.4); transform: scale(1.06); }
+.jj .cal-day.is-today b, .jj .cal-day.is-today small { color: #fff; }
+.jj .cal-day.is-last::after {
+  content: '✦'; position: absolute; top: 6px; right: 8px; font-size: .7rem; color: #00a8a8;
+}
+.jj .cal-day.is-today.is-last::after { color: #fff; }
+.jj .cal-legend { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 26px; font-size: .78rem; color: #6b7a7a; font-weight: 600; }
+.jj .cal-legend i { display: inline-block; width: 12px; height: 12px; border-radius: 4px; margin-right: 8px; vertical-align: -1px; }
+@media (max-width: 600px) {
+  .jj .cal-dow, .jj .cal-grid { gap: 6px; }
+  .jj .cal-day { border-radius: 8px; }
+  .jj .cal-day small { display: none; }
+}
+
+/* ════════ RECURSOS ════════ */
+.jj .res-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 48px; }
+@media (max-width: 900px) { .jj .res-grid { grid-template-columns: 1fr; } }
+.jj .res-card {
+  border: 1px solid rgba(255,255,255,.1); background: rgba(255,255,255,.03);
+  border-radius: 14px; padding: 32px 28px;
+  display: flex; flex-direction: column; gap: 10px;
+  transition: background .3s, border-color .3s, transform .3s;
+}
+.jj .res-card:hover { background: rgba(0,168,168,.08); border-color: rgba(0,168,168,.4); transform: translateY(-4px); }
+.jj .res-ico { font-size: 1.8rem; line-height: 1; margin-bottom: 6px; }
+.jj .res-card h3 { font-size: 1.25rem; font-weight: 800; color: #fff; letter-spacing: -.01em; }
+.jj .res-card p { font-size: .93rem; color: rgba(232,244,244,.65); line-height: 1.65; margin: 0; }
+.jj .res-card .btn-ap { margin-top: auto; align-self: flex-start; }
+.jj .res-card .res-body { margin-bottom: 14px; }
+.jj .code-box {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  border: 1.5px dashed rgba(0,168,168,.55); background: rgba(0,168,168,.08);
+  border-radius: 10px; padding: 12px 16px; margin: 4px 0 14px;
+}
+.jj .code-box small { display: block; font-size: .62rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #00a8a8; margin-bottom: 2px; }
+.jj .code-box code { font-family: 'Inter', monospace; font-size: 1.15rem; font-weight: 800; color: #fff; letter-spacing: .04em; background: none; padding: 0; }
+.jj .copy-btn {
+  cursor: pointer; border: 1px solid rgba(255,255,255,.25); background: transparent;
+  color: rgba(255,255,255,.8); font-family: inherit; font-size: .72rem; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; padding: 8px 14px; border-radius: 6px;
+  transition: all .2s;
+}
+.jj .copy-btn:hover { background: #00a8a8; border-color: #00a8a8; color: #fff; }
+
+/* ════════ ENCONTROS / CUIDADOS ════════ */
+.jj .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media (max-width: 900px) { .jj .duo { grid-template-columns: 1fr; } }
+.jj .info-box {
+  background: #fff; border: 1px solid rgba(0,168,168,.2);
+  border-radius: 14px; padding: 36px 34px;
+  background-image: linear-gradient(135deg, rgba(0,168,168,.06) 0%, rgba(0,168,168,.01) 100%);
+}
+.jj .info-box h3 { font-size: 1.35rem; font-weight: 800; color: #0f1f1f; margin-bottom: 12px; letter-spacing: -.01em; }
+.jj .info-box p { font-size: .96rem; color: #444; line-height: 1.7; }
+.jj .info-box p:last-child { margin-bottom: 0; }
+.jj .info-box .tag-label { margin-bottom: 10px; }
+
+/* ════════ CTA FINAL ════════ */
+.jj .cta-section {
+  background: #0b1f1f; padding: 100px 0; text-align: center;
+  position: relative; overflow: hidden;
+}
+.jj .cta-section::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 70% 60% at 50% 0%, rgba(0,168,168,.14) 0%, transparent 70%);
+}
+.jj .cta-title {
+  font-size: clamp(2.4rem, 6vw, 5.5rem);
+  font-weight: 900; letter-spacing: -.03em; color: #fff;
+  line-height: .96; margin-bottom: 20px;
+}
+.jj .cta-title .thin { font-weight: 300; color: rgba(255,255,255,.4); }
+.jj .cta-sub { font-size: 1.05rem; color: rgba(255,255,255,.62); max-width: 600px; margin: 0 auto 48px; line-height: 1.65; }
+.jj .btn-grid { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+.jj .btn-ap {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 15px 30px; border-radius: 8px;
+  font-size: .92rem; font-weight: 700; letter-spacing: .01em;
+  transition: transform .25s ease, box-shadow .25s ease, background .25s ease, border-color .25s;
+  cursor: pointer; border: none; text-decoration: none;
+}
+.jj .btn-ap::after { content: ' →'; opacity: .7; font-weight: 400; }
+.jj .btn-ap-primary { background: #00a8a8; color: #fff; }
+.jj .btn-ap-primary:hover { background: #008f8f; color: #fff; transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,168,168,.35); }
+.jj .btn-ap-ghost { background: transparent; color: rgba(255,255,255,.75); border: 1.5px solid rgba(255,255,255,.2); }
+.jj .btn-ap-ghost:hover { background: rgba(255,255,255,.06); color: #fff; transform: translateY(-3px); border-color: rgba(255,255,255,.4); }
+@media (max-width: 600px) {
+  .jj .btn-grid { flex-direction: column; align-items: center; }
+  .jj .btn-ap { width: 100%; justify-content: center; max-width: 340px; }
+}
+
+/* ════════ FOOTER ════════ */
+.jj .ap-footer { background: #060f0f; color: rgba(255,255,255,.5); padding: 44px 0; }
+.jj .footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+.jj .footer-logo { font-size: 1.25rem; font-weight: 900; color: #fff; letter-spacing: -.02em; }
+.jj .footer-logo span { color: #00a8a8; }
+.jj .footer-socials { display: flex; gap: 24px; }
+.jj .footer-socials a {
+  font-size: .78rem; font-weight: 700; letter-spacing: .09em;
+  text-transform: uppercase; color: rgba(255,255,255,.4); transition: color .2s;
+}
+.jj .footer-socials a:hover { color: #00a8a8; }
+.jj .footer-copy { font-size: .76rem; }
+
+/* ── ANIMAÇÃO ── */
+@keyframes jjFadeUp { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
+.jj .fi  { animation: jjFadeUp .65s ease both; }
+.jj .fi1 { animation-delay: .08s; }
+.jj .fi2 { animation-delay: .2s; }
+.jj .fi3 { animation-delay: .34s; }
+.jj .fi4 { animation-delay: .48s; }
+@media (prefers-reduced-motion: reduce) { .jj .fi { animation: none; } .jj * { transition: none !important; } }
+</style>
+
+<div class="jj">
+
+<!-- ╔═══════════════════════════╗
+     ║          HERO             ║
+     ╚═══════════════════════════╝ -->
+<section class="hero-wrap">
+  <div class="hero-bg-word" aria-hidden="true">21</div>
+  <div class="wrap" style="position:relative;z-index:1;">
+    <p class="hero-eyebrow fi">Igreja A Ponte BH · Convocação</p>
+    <h1 class="hero-h1 fi fi1">Jejum<br><em>de</em> 21 dias</h1>
+    <p class="hero-sub fi fi2">
+      Vamos começar o novo ano buscando a Deus juntos. De 9 a 29 de novembro, toda a nossa igreja em jejum e oração.
+    </p>
+    <div class="hero-meta fi fi3">
+      <div class="hero-pill"><small>Início</small><strong>09 de novembro</strong></div>
+      <div class="hero-pill"><small>Término</small><strong>29 de novembro</strong></div>
+      <div class="hero-pill hero-pill-live"><small>Agora</small><strong id="jj-hero-status">Começa em 09/11</strong></div>
+    </div>
+    <div class="hero-scroll-hint fi fi4">
+      <span class="scl"></span>
+      Leia a convocação
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════╗
+     ║   CONVOCAÇÃO (VÍDEO 1)    ║
+     ╚═══════════════════════════╝ -->
+<section class="section section-white">
+  <div class="wrap">
+    <div class="conv-grid">
+      <div>
+        <span class="tag-label">01 — A convocação</span>
+        <h2 class="display-md" style="margin-top:10px; margin-bottom:24px;">
+          Não é só<br>
+          <span style="font-weight:300; color:#777;">um convite.</span>
+        </h2>
+        <p style="font-size:1.06rem; color:#333; line-height:1.8;">
+          Estamos terminando 2026 e, para nós na Ponte, o calendário cristão tem uma importância singular. A partir de 29 de novembro inicia-se o Advento, e queremos criar uma cultura, a partir deste ano, de começar o novo ano no Advento.
+        </p>
+        <p style="font-size:1.06rem; color:#333; line-height:1.8;">
+          Por isso, cabe a todos nós parar um pouco e lembrar como queremos que o novo ano seja. A melhor maneira é a prática do <strong>jejum e da oração</strong>.
+        </p>
+        <p class="quote-box">
+          Estamos decididos: não queremos mais nada senão aquilo que Deus tem para nós. Vem com a gente!
+        </p>
+      </div>
+      <div>
+        <div class="video-wrap" data-link="FQqsx00joUA" data-title="Convocação para o Jejum de 21 dias — A Ponte BH">
+          <a class="yt-facade" href="https://www.youtube.com/watch?v=FQqsx00joUA" target="_blank" rel="noopener" style="background-image:url('https://i.ytimg.com/vi/FQqsx00joUA/hqdefault.jpg');" aria-label="Assistir: Convocação para o Jejum de 21 dias — A Ponte BH"><span class="yt-play"></span><span class="yt-label">Assistir no YouTube</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════╗
+     ║         ADVENTO           ║
+     ╚═══════════════════════════╝ -->
+<section class="section section-dark">
+  <div class="wrap">
+    <div class="advento-grid">
+      <div class="big-date" aria-hidden="true">
+        29/11
+        <span>Início do Advento</span>
+      </div>
+      <div>
+        <span class="tag-label" style="color:#00a8a8;">02 — Por que agora</span>
+        <h2 class="display-md" style="color:#fff; margin-top:10px; margin-bottom:24px;">
+          Calibrar o coração<br>
+          <span style="font-weight:300; color:rgba(255,255,255,.38);">antes de um novo ano</span>
+        </h2>
+        <p>A convocação é para você que é pastoreado na Ponte, que ama a nossa igreja, que cuida dos outros e que chama este povo de seu povo.</p>
+        <p>Vá aquecendo o coração e preparando a vida para, a partir de <strong style="color:#fff;">9 de novembro</strong>, buscarmos a Deus como comunidade: pelas nossas próprias vidas, por direção para o próximo ano e para vivermos aquilo que Ele tem para nós como igreja.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════╗
+     ║   COMO FAZER (VÍDEO 2)    ║
+     ╚═══════════════════════════╝ -->
+<section class="section section-cream">
+  <div class="wrap">
+    <div class="how-head">
+      <span class="tag-label">03 — Como fazer</span>
+      <h2 class="display-md" style="margin-top:10px; margin-bottom:20px;">
+        Existem várias<br>
+        <span style="font-weight:300; color:#777;">maneiras de jejuar</span>
+      </h2>
+      <p style="font-size:1.04rem; color:#333; line-height:1.8; margin:0;">
+        Jejum não é apenas ficar sem comer, embora isso seja verdade. Na cultura da nossa devoção a Deus, há mais de um caminho, e todos são válidos. Escolha o seu e viva-o até o fim.
+      </p>
+    </div>
+
+    <div class="how-grid">
+      <div class="how-card">
+        <div class="how-num">01</div>
+        <h3>Jejum de alimento</h3>
+        <h4>Só água, por um período do dia</h4>
+        <p>Ficar sem se alimentar, bebendo somente água, durante um período do dia.</p>
+        <p><strong>Sugestão:</strong> jante às 20h e fique até as 12h do dia seguinte. Atletas e o pessoal do fitness fazem isso com frequência.</p>
+        <p class="how-tip">Lembre-se: tire algo da sua manhã para buscar a Deus.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">02</div>
+        <h3>Abstinência de algo que você ama</h3>
+        <h4>Aquilo pelo qual sente atração especial</h4>
+        <p>Escolha um alimento ou hábito que você de fato sente falta quando não tem: um refrigerante, um doce, o café. E abra mão dele pelos 21 dias.</p>
+        <p class="how-tip">Cada vez que sentir vontade, transforme em oração.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">03</div>
+        <h3>Abstinência de hábitos</h3>
+        <h4>Fora da alimentação</h4>
+        <p>Abster-se de séries de TV, filmes ou outra coisa que não envolva comida. Também é válido. Costumamos chamar isso mais de <em>propósito</em>, mas vamos envelopar tudo numa coisa só: buscar a Deus.</p>
+        <p class="how-tip">O tempo que sobrar vira tempo com Ele.</p>
+      </div>
+    </div>
+
+    <div class="elevate">
+      <h3>Seja qual for a forma,<br><span>eleve a sua busca.</span></h3>
+      <ul>
+        <li>Se você lê 2 capítulos da Bíblia por dia, leia 3 ou 4.</li>
+        <li>Separe mais tempo em oração.</li>
+        <li>Coloque mais música de adoração no carro, no fone, na casa.</li>
+        <li>Fique atento: o jejum é o meio, o encontro com Deus é o fim.</li>
+      </ul>
+    </div>
+
+    <div class="how-video">
+      <div class="video-wrap" data-link="A_9HGSWhj0E" data-title="Como fazer o jejum — A Ponte BH">
+          <a class="yt-facade" href="https://www.youtube.com/watch?v=A_9HGSWhj0E" target="_blank" rel="noopener" style="background-image:url('https://i.ytimg.com/vi/A_9HGSWhj0E/hqdefault.jpg');" aria-label="Assistir: Como fazer o jejum — A Ponte BH"><span class="yt-play"></span><span class="yt-label">Assistir no YouTube</span></a>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════╗
+     ║    CALENDÁRIO 21 DIAS     ║
+     ╚═══════════════════════════╝ -->
+<section class="section section-white">
+  <div class="wrap">
+    <div class="cal-head">
+      <div>
+        <span class="tag-label">04 — A jornada</span>
+        <h2 class="display-md" style="margin-top:10px;">
+          21 dias<br>
+          <span style="font-weight:300; color:#777;">de 09/11 a 29/11</span>
+        </h2>
+      </div>
+      <div class="cal-status" id="jj-cal-status">Começa em 09/11</div>
+    </div>
+
+    <div class="cal-wrap">
+      <div class="cal-dow" aria-hidden="true">
+        <span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span><span>Dom</span>
+      </div>
+      <div class="cal-grid" id="jj-cal-grid">
+        <!-- Semana 1 -->
+        <div class="cal-day" data-d="9"><b>9</b><small>Dia 1</small></div>
+        <div class="cal-day" data-d="10"><b>10</b><small>Dia 2</small></div>
+        <div class="cal-day has-ev ev-qua" data-d="11" title="Oração às 6h"><b>11</b><small>Dia 3</small><span class="ev-tag">🙏 6h</span></div>
+        <div class="cal-day has-ev ev-qui" data-d="12" title="Oração às 20h"><b>12</b><small>Dia 4</small><span class="ev-tag">🙏 20h</span></div>
+        <div class="cal-day" data-d="13"><b>13</b><small>Dia 5</small></div>
+        <div class="cal-day has-ev ev-sab" data-d="14" title="Oração às 6h"><b>14</b><small>Dia 6</small><span class="ev-tag">🙏 6h</span></div>
+        <div class="cal-day" data-d="15"><b>15</b><small>Dia 7</small></div>
+        <!-- Semana 2 -->
+        <div class="cal-day" data-d="16"><b>16</b><small>Dia 8</small></div>
+        <div class="cal-day" data-d="17"><b>17</b><small>Dia 9</small></div>
+        <div class="cal-day has-ev ev-qua" data-d="18" title="Oração às 6h"><b>18</b><small>Dia 10</small><span class="ev-tag">🙏 6h</span></div>
+        <div class="cal-day has-ev ev-qui" data-d="19" title="Oração às 20h"><b>19</b><small>Dia 11</small><span class="ev-tag">🙏 20h</span></div>
+        <div class="cal-day" data-d="20"><b>20</b><small>Dia 12</small></div>
+        <div class="cal-day has-ev ev-sab" data-d="21" title="Oração às 6h"><b>21</b><small>Dia 13</small><span class="ev-tag">🙏 6h</span></div>
+        <div class="cal-day" data-d="22"><b>22</b><small>Dia 14</small></div>
+        <!-- Semana 3 -->
+        <div class="cal-day" data-d="23"><b>23</b><small>Dia 15</small></div>
+        <div class="cal-day" data-d="24"><b>24</b><small>Dia 16</small></div>
+        <div class="cal-day has-ev ev-qua" data-d="25" title="Oração às 6h"><b>25</b><small>Dia 17</small><span class="ev-tag">🙏 6h</span></div>
+        <div class="cal-day has-ev ev-qui" data-d="26" title="Oração às 20h"><b>26</b><small>Dia 18</small><span class="ev-tag">🙏 20h</span></div>
+        <div class="cal-day" data-d="27"><b>27</b><small>Dia 19</small></div>
+        <div class="cal-day has-ev ev-sab" data-d="28" title="Oração às 6h"><b>28</b><small>Dia 20</small><span class="ev-tag">🙏 6h</span></div>
+        <div class="cal-day is-last" data-d="29"><b>29</b><small>Dia 21</small></div>
+      </div>
+      <div class="cal-legend">
+        <span><i style="background:#00a8a8;"></i>Hoje</span>
+        <span><i style="background:rgba(0,168,168,.25);"></i>Dias concluídos</span>
+        <span><i style="background:#f0f0eb; border:1px solid rgba(0,0,0,.1);"></i>Próximos dias</span>
+        <span><span style="color:#00a8a8;">🙏</span> Encontro de oração</span>
+        <span><span style="color:#00a8a8;">✦</span> 29/11: início do Advento</span>
+      </div>
+      <div class="ev-list">
+        <div class="ev-item"><small>Quartas-feiras · Online</small><strong>6h às 6h15</strong><span>Dias 11, 18 e 25/11</span></div>
+        <div class="ev-item"><small>Quintas-feiras · Presencial</small><strong>20h às 21h</strong><span>Campus Zona Sul · Dias 12, 19 e 26/11</span></div>
+        <div class="ev-item"><small>Sábados · Presencial</small><strong>6h às 7h</strong><span>Campus Castelo · Dias 14, 21 e 28/11</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════╗
+     ║         RECURSOS          ║
+     ╚═══════════════════════════╝ -->
+<section class="section section-dark">
+  <div class="wrap">
+    <span class="tag-label" style="color:#00a8a8;">05 — Caminhemos juntos</span>
+    <h2 class="display-md" style="color:#fff; margin-top:10px; max-width:720px;">
+      Tudo o que você precisa<br>
+      <span style="font-weight:300; color:rgba(255,255,255,.38);">para viver estes dias</span>
+    </h2>
+
+    <div class="res-grid">
+      <div class="res-card">
+        <div class="res-ico">📖</div>
+        <h3>Plano de leitura</h3>
+        <div class="res-body">
+          <p>Um plano de leitura bíblica no YouVersion, também disponível no app da Ponte. Entre e se inscreva antes do dia 9 para lermos juntos.</p>
+        </div>
+        <a class="btn-ap btn-ap-primary" href="https://bible.com/reading-plans/79110/together/82869499/invitation?token=gDCdKAdlLhmk2BRTRYDf5g&source=share" target="_blank" rel="noopener">Entrar no plano</a>
+      </div>
+
+      <div class="res-card">
+        <div class="res-ico">🙏</div>
+        <h3>Mural de pedidos de oração</h3>
+        <div class="res-body">
+          <p>Compartilhe os seus pedidos e ore pelos pedidos dos irmãos. Use o código de acesso abaixo para entrar.</p>
+        </div>
+        <div class="code-box">
+          <div>
+            <small>Código de acesso</small>
+            <code id="jj-code">ponte2026</code>
+          </div>
+          <button type="button" class="copy-btn" id="jj-copy">Copiar</button>
+        </div>
+        <a class="btn-ap btn-ap-primary" href="https://script.google.com/a/macros/apontebh.com.br/s/AKfycbxwzo5QiGHlpsi77uB2M5HVRtutVmFZbwpCvtWZzj1iPpaOfHltGuHXPmQmEhEU0PLp/exec" target="_blank" rel="noopener">Abrir o mural</a>
+      </div>
+
+      <div class="res-card">
+        <div class="res-ico">🔥</div>
+        <h3>Encontros de oração</h3>
+        <div class="res-body">
+          <p><strong style="color:#fff;">Quartas, 6h às 6h15</strong> · online (11, 18 e 25/11)<br><strong style="color:#fff;">Quintas, 20h às 21h</strong> · Campus Zona Sul (12, 19 e 26/11)<br><strong style="color:#fff;">Sábados, 6h às 7h</strong> · Campus Castelo (14, 21 e 28/11)</p><p style="margin-top:10px;">Marcados no calendário acima. Acompanhe o app e as redes para mais informações.</p>
+        </div>
+                <a class="btn-ap btn-ap-ghost" href="https://instagram.com/apontebh" target="_blank" rel="noopener">Acompanhar no Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════╗
+     ║   ENCONTRO + CUIDADOS     ║
+     ╚═══════════════════════════╝ -->
+<section class="section section-cream" style="padding:72px 0;">
+  <div class="wrap">
+    <div class="duo">
+      <div class="info-box">
+        <span class="tag-label">O que esperamos</span>
+        <h3>O mover de Deus entre nós</h3>
+        <p>O principal é o mover de Deus na sua vida, na sua família, no seu coração, na sua vida como pessoa e na nossa vida como igreja. O que queremos é ouvir a Deus e que Ele venha ao nosso encontro mais uma vez.</p>
+      </div>
+      <div class="info-box">
+        <span class="tag-label">Com sabedoria</span>
+        <h3>Cuide de você</h3>
+        <p>Se você tem alguma condição de saúde, faz uso de medicação contínua, está gestante ou amamentando, converse com seu médico antes de jejuar de alimento. Existem outras formas de participar, e todas são válidas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════╗
+     ║         CTA FINAL         ║
+     ╚═══════════════════════════╝ -->
+<section class="cta-section">
+  <div class="wrap" style="position:relative; z-index:1;">
+    <p class="tag-label" style="display:block; text-align:center; margin-bottom:24px;">Vamos juntos?</p>
+    <h2 class="cta-title">
+      Somos<br>
+      <span class="thin">a Ponte!</span>
+    </h2>
+    <p class="cta-sub" style="margin-top:20px;">
+      De 9 a 29 de novembro, buscaremos a Deus como comunidade. Inscreva-se no plano de leitura, deixe seus pedidos no mural e convide alguém para viver isso com você.
+    </p>
+    <div class="btn-grid">
+      <a class="btn-ap btn-ap-primary" href="https://bible.com/reading-plans/79110/together/82869499/invitation?token=gDCdKAdlLhmk2BRTRYDf5g&source=share" target="_blank" rel="noopener">Entrar no plano de leitura</a>
+      <a class="btn-ap btn-ap-ghost" href="https://script.google.com/a/macros/apontebh.com.br/s/AKfycbxwzo5QiGHlpsi77uB2M5HVRtutVmFZbwpCvtWZzj1iPpaOfHltGuHXPmQmEhEU0PLp/exec" target="_blank" rel="noopener">Mural de oração</a>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════╗
+     ║          FOOTER           ║
+     ╚═══════════════════════════╝ -->
+<footer class="ap-footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="footer-logo">A <span>Ponte</span> BH</div>
+      <div class="footer-socials">
+        <a href="https://instagram.com/apontebh" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/@apontebh" target="_blank" rel="noopener">YouTube</a>
+      </div>
+      <small class="footer-copy">&copy; 2026 A Ponte BH. Todos os direitos reservados.</small>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  try {
+    /* ── Contagem / dia atual do jejum (início 09/11/2026, 21 dias) ── */
+    var START = new Date(2026, 10, 9);          // 09/11/2026 (mês 0-indexado)
+    var TOTAL = 21;
+    var now = new Date();
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var diff = Math.round((today - START) / 86400000); // 0 = dia 1
+    var msg, hero;
+
+    if (diff < 0) {
+      var n = -diff;
+      msg  = n === 1 ? 'Começa amanhã!' : 'Começa em ' + n + ' dias';
+      hero = msg;
+    } else if (diff < TOTAL) {
+      msg  = 'Hoje é o dia ' + (diff + 1) + ' de ' + TOTAL;
+      hero = 'Dia ' + (diff + 1) + ' de ' + TOTAL;
+    } else {
+      msg  = 'Jejum concluído. Feliz Advento!';
+      hero = 'Concluído';
+    }
+
+    var elHero = document.getElementById('jj-hero-status');
+    var elCal  = document.getElementById('jj-cal-status');
+    if (elHero) elHero.textContent = hero;
+    if (elCal)  elCal.textContent  = msg;
+
+    /* ── Calendário: marca dias concluídos e o dia de hoje ── */
+    var days = document.querySelectorAll('#jj-cal-grid .cal-day');
+    for (var i = 0; i < days.length; i++) {
+      if (i < diff) days[i].classList.add('is-done');
+      if (i === diff) days[i].classList.add('is-today');
+    }
+
+    /* ── Copiar código de acesso ── */
+    var btn  = document.getElementById('jj-copy');
+    var code = document.getElementById('jj-code');
+    if (btn && code) {
+      btn.addEventListener('click', function () {
+        var txt = code.textContent.trim();
+        var done = function () {
+          btn.textContent = 'Copiado!';
+          setTimeout(function () { btn.textContent = 'Copiar'; }, 1800);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(txt).then(done, fallback);
+        } else { fallback(); }
+        function fallback() {
+          var t = document.createElement('textarea');
+          t.value = txt; t.style.position = 'fixed'; t.style.opacity = '0';
+          document.body.appendChild(t); t.select();
+          try { document.execCommand('copy'); done(); } catch (e) {}
+          document.body.removeChild(t);
+        }
+      });
+    }
+  } catch (e) { /* a página funciona normalmente sem o script */ }
+})();
+</script>
+<!-- FIM PÁGINA: JEJUM DE 21 DIAS — A Ponte BH -->
+
+</body>
+</html>
